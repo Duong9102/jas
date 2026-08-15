@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="addTabIndex()">
+
+    <h1>Interactive Photo Gallery</h1>
+    
+    <div id="image-container">
+        Hover over an image below to display here.
+    </div>
+
+    <div class="gallery">
+        <img class="preview" alt="Beautiful landscape with mountains" src="https://via.placeholder.com/150/FF5733/FFFFFF?text=Image+1" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+             
+        <img class="preview" alt="A quiet beach during sunset" src="https://via.placeholder.com/150/33FF57/FFFFFF?text=Image+2" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+             
+        <img class="preview" alt="City skyline at night" src="https://via.placeholder.com/150/3357FF/FFFFFF?text=Image+3" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+             
+        <img class="preview" alt="Macro shot of a blooming flower" src="https://via.placeholder.com/150/FF33A8/FFFFFF?text=Image+4" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+             
+        <img class="preview" alt="A cute puppy playing in the grass" src="https://via.placeholder.com/150/F3FF33/000000?text=Image+5" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+             
+        <img class="preview" alt="Delicious slice of chocolate cake" src="https://via.placeholder.com/150/33FFF3/000000?text=Image+6" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    </div>
+
+</body>
+</html>
